@@ -6,7 +6,11 @@ For Kernel 4.15.x ~ 5.9.x (Linux Mint, Ubuntu or Debian Derivatives)
 
 `sudo apt-get install build-essential git dkms linux-headers-$(uname -r)`
 
-`git clone -b arm https://github.com/kelebek333/rtl8188fu rtl8188fu-arm`
+alternatively, on Rasbian
+
+`sudo apt-get install build-essential git dkms raspberrypi-kernel-headers`
+
+`git clone -b arm https://github.com/d53dave/rtl8188fu rtl8188fu-arm`
 
 `sudo dkms add ./rtl8188fu-arm`
 
